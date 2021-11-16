@@ -1,0 +1,65 @@
+.heading
+  {
+    width: 100%;
+    margin: 0px;
+    box-shadow:5px 5px 5px grey;
+    font-size:23px;
+    font-family: 'Roboto Mono', monospace;
+  }
+  .heading_div
+  {
+    float:none;
+    background: white ; 
+    border-radius: 20px; 
+    color: black;
+    box-shadow:5px 5px 5px grey;
+    font-family: 'Fruktur', cursive;
+  }
+  .heading_div2
+  {
+    font-size: 18px ;
+    font-family: 'Roboto Mono', monospace;
+    color:chocolate;
+    font-weight:bold;
+  }
+  .result_para_tag
+  {
+    box-shadow:5px 5px 5px grey;
+    font-size: 20px;
+  }
+
+
+  .copy_right_footer{
+position:fixed;
+bottom:0;
+color:darkgreen;
+background-color:dodgerblue;
+box-shadow:5px 5px 5px limegreen;
+line-height:3;
+width:100%;
+font-family: 'Fruktur', cursive;
+text-align:center;
+  }
+
+
+  .result_para_tag span{
+    white-space:pre-line;
+    color:greenyellow;
+  }
+
+
+  canvas{
+    margin-top: 164px;
+    border-color:chartreuse;
+    border-width:24px;
+    border-style:double;
+    animation-name: canvasglow;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+
+
+  @keyframes canvasglow{
+    from{box-shadow : 5px 5px 35px navy;}
+    to{box-shadow : 5px 5px 35px yellow;}
+  }
